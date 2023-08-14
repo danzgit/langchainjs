@@ -1,3 +1,13 @@
+# Gampangnya, tinggal begini:
+git clone
+yarn install
+yarn add langchain --> ini kayaknya gak perlu deh.... 
+cd langchain-js-tutorial/examples
+nano .env (masukkan API key disini. bisa lihat contoh nya di .env.example)
+- ini untuk test jalankan script:
+npm run start ./llms/openai.ts --> ini kalau mau test koneksi dengan openAI langsung
+npm run start ./chains/testku.ts --> ini pakai openAI tapi dengan knowledge tambahan base dari kita sendiri
+
 # 🦜️🔗 LangChain.js
 
 ⚡ Building applications with LLMs through composability ⚡
